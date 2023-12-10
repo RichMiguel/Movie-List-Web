@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar Example</title>
+</head>
+<body>
+
+    <header >
+            <div class="container">
+                <div class="header-name">
+                    <div class="header-logo">
+                        <img src="images/Tak berjudul25_20210713084618.png" alt="logo" height="45px">
+                    </div>
+                    <div class="header-title">
+                        <h2 id="title">Fire Film</h2>
+                    </div>
+                </div>
+                <nav class="top-nav">
+                    <ul>
+                        <li class="nav-link"><a href="#" class="link">Home</a></li>
+                        <li class="nav-link"><a href="#" class="link">Movie</a></li>
+                        <li class="nav-link" >
+                            <a href="#" class="link">Genre</a>
+                            <div class="dropdown-content">
+                                <a href="" class="item">Action</a>
+                                <a href="" class="item">Romance</a>
+                                <a href="" class="item">Horror</a>
+                                <a href="" class="item">Comedy</a>
+                            </div>
+                        </li>
+                        <li class="nav-link"><a href="#" class="link">FAQ</a></li>
+                    </ul>
+                    <button class="icon" onclick="sideNav()">&#9776;</button>
+                </nav>
+            </div>
+    </header>
+    <div class="sidebar" id='sidebar'>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movie</a></li>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="top-content">
+            <div class="content-container">
+                <div class="item">
+                    <img src="images/image832.png" alt="" height="200px">
+                </div>
+                <div class="item">
+                    <img src="images/image960.png" alt="" height="200px">
+                </div>  
+            </div>
+            <div class="content-container">
+                <div class="item">
+                    <img src="images/image844.png" alt="" height="200px">
+                </div>
+                <div class="item">
+                    <img src="images/image972.png" alt="" height="200px">
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="item">
+                    <img src="images/image856.png" alt="" height="200px">
+                </div>
+                <div class="item">
+                    <img src="images/image984.png" alt="" height="200px">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
