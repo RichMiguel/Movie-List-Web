@@ -185,7 +185,7 @@ header .container{
 }
 
 .content{
-    border: 1px solid black;
+    
     width: 80%;
     margin: 20px auto;
     padding: 10px;
@@ -196,17 +196,30 @@ header .container{
 }
 
 .top-content .content-container{
-    border: 1px solid black;
-    margin-top: 15px;
+    margin: 10px 0px;
     display: flex;
-    padding: 10px;
 }
 
 .top-content .item{
     border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px 5px;
+    padding: 5px;
     display: inline-flex;
     width: 50%;
 }
+
+.top-content .item img{
+    border-radius: 15px;
+}
+
+.item-text{
+    justify-content: center;
+    display: flex;
+    width: 65%;
+    margin-left: 25px;
+}
+
 
 
 
